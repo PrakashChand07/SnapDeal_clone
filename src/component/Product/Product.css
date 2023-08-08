@@ -1,0 +1,49 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    padding: 10px 50px;
+    margin: 50px 0 0 0;
+}
+.card {
+    transition: 0.3s;
+    width: 100%;
+    text-align: center;
+    padding: 5px 5px;
+    background-color: #fff;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2);
+  }
+.card-img-top{
+    width: 15rem;
+    height: 15rem;
+    margin-left: 15px;
+}
+
+
+.allProductPrice{
+    margin-top: 20px;
+    color: #999;
+    display: flex;
+    justify-content: space-evenly;
+}
+.realPrice{
+    color: black !important;
+}
+.fakeCost{
+    text-decoration: line-through;
+  }
+  .Rating{
+    margin: 20px;
+  }
+  .rating_show{
+    margin-top:10px;
+    float: left;
+  }
+  .quick_view{
+   float: right;
+   padding: 5px 10px;
+  }

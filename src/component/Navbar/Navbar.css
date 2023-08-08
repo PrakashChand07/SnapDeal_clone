@@ -1,0 +1,102 @@
+
+.subNavbar {
+  height: 30.2px;
+  background-color: #e40046;
+  color: #f7f7f7;
+  font-size: 12px;
+  padding: 13px 120px;
+}
+.subnavbar_headingLeft {
+  float: left;
+}
+.subnavbar_headingRight {
+  float: right;
+  text-decoration: none;
+}
+.subnavbar_headingRight ul {
+  display: flex;
+  text-decoration: none;
+  gap: 20px;
+}
+.subnavbar_headingRight ul li {
+  list-style: none;
+}
+.subnavbar_headingRight ul li a {
+  text-decoration: none;
+  color: #f7f7f7;
+}
+
+.mainNavbar {
+  background-color: #ff034f;
+  color: #f7f7f7;
+  padding: 13px 115px;
+  height: 65px;
+  overflow: visible !important;
+  background: #e40046;
+  width: auto;
+  opacity: 1;
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+  width: 100%;
+  z-index: 999;
+}
+.fixed{
+  position: fixed;
+  top: 0;
+}
+.logo{
+   float: left;
+}
+
+.logo img {
+  width: 150px;
+}
+.serachBar{
+   margin-left: 14vw;
+}
+.serachBar input[type=text]{
+    border: none;
+    font-size: 14px;
+    border-right: none;
+    height: 37px;
+    padding: 0 10px 0 32px;
+    outline: none;
+    text-overflow: ellipsis;
+    width: 55%;
+}
+
+.login{
+    position: relative;
+    float: right;
+    bottom: 25px;
+    display: flex;
+    gap: 100px;
+}
+.search{
+    background: #333;
+    color: #fff;
+    height: 37px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+    padding: 11px 31px;
+    text-decoration: none;
+    display: inline;
+}
+.login a{
+    text-decoration: none;
+    color: #f7f7f7;
+    cursor: pointer;
+}
+.cart_text{
+  position: absolute;
+  left: -30px;
+}
+.sign_in{
+    position: relative;
+    top: -9px;
+    left: -29px;
+    font-size: 14px;
+}
+

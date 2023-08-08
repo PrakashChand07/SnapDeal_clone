@@ -1,0 +1,138 @@
+
+.cart_container {
+    display: flex;
+justify-content: space-between;
+gap: 10px;
+    padding: 20px;
+    margin: 57px;
+    width: 92%;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart_showItems {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(180px, 1fr));
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart_show_img img {
+    flex-basis: 70%;
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .cart_product_quantity {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart_product_quantity button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 7px 10px;
+    margin: 0 5px;
+  }
+  
+  .cart_deleteBtn button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 50%;
+  }
+  
+.total_amount{
+flex-basis: 50%; 
+margin-top: 20px;
+background-color: white ;
+ }
+
+.card_mainHeader {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.card_header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 15px;
+}
+
+.cards_body {
+  position: absolute;
+  flex-basis: 60%;
+  padding: 30px;
+  margin-top: 30px;
+  padding: 15px;
+  width: 22%;
+}
+
+.product_showAll {
+  list-style: none;
+  padding: 0;
+}
+
+.Products_charge,
+.Shipping_charge,
+.show_total_amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}
+
+.show_total_amount {
+  border-bottom: 1px solid #ddd;
+}
+
+.Products_charge span,
+.Shipping_charge span,
+.show_total_amount span {
+  font-weight: bold;
+}
+
+.quantity input[type=number]{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+.quantity_wise_price{
+font-weight: 800;
+}
+.checkBtn{
+margin-top: 50px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+.checkBtn button{
+  border: none;
+  background: none;
+  color: white;
+ font-size: 18px;
+  padding: 0;
+}
