@@ -1,5 +1,5 @@
 .swiper {
-  width: 67%;
+  width: 55%;
   height: 100%;
 }
 
@@ -43,15 +43,15 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  gap: 10px;
+  gap: 5px;
   padding: 10px 2px;
   background-color: #fff;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  bottom: 273px;
+  bottom: 200px;
 }
 .pinCode_img img {
-  width: 157px;
-  height: 150px;
+  width: 150px;
+  height: 125px;
 }
 .pin_text {
   font-size: 12px;
@@ -80,7 +80,7 @@
   text-transform: uppercase;
   position: relative;
   top: 20px;
-  left: 20px;
+  left: 0px;
 }
 .topitems {
   position: relative;

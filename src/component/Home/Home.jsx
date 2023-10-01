@@ -130,14 +130,6 @@ const Home = () => {
            <div className="TextImg discount_money"> 
        <span className="oringinal_cost"> Rs 499</span><span className="realCost"> Rs 299</span><span className="discount"> 67% OFF</span>
       </div> 
-         </div>  <div className="sub-item">
-            <div>
-         <img src={require("../img/Veirdo-100-Cotton-Regular-Fit.jpg")} alt="logo" /> 
-         </div>
-         <p className="TextImg"> david miler watch is to good</p>
-           <div className="TextImg discount_money"> 
-       <span className="oringinal_cost"> Rs 499</span><span className="realCost"> Rs 299</span><span className="discount"> 67% OFF</span>
-      </div> 
          </div>
       </div>
        <div className="Product_show">
